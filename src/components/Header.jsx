@@ -98,7 +98,7 @@ const Header = () => {
                     {/* Right Side: CV Download Button (Visible on desktop only) */}
                     <div className="hidden md:block">
                         <a
-                            href="src/assets/JagannathPrasadKar.pdf" // Replace with your actual CV file path
+                            href="JagannathPrasadKar.pdf" // Replace with your actual CV file path
                             download
                             className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
                         >

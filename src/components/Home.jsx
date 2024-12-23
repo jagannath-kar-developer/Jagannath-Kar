@@ -44,7 +44,7 @@ const Home = () => {
                         </button>
 
                         <a
-                            href="src/assets/JagannathPrasadKar.pdf"
+                            href="JagannathPrasadKar.pdf"
                             download
                             className="bg-[#10B981] text-center text-white py-3 px-8 w-full md:w-auto rounded-full font-semibold text-lg hover:bg-[#059669] transition"
                         >
@@ -76,7 +76,7 @@ const Home = () => {
                 >
                     <div className="relative w-96 h-96 rounded-full overflow-hidden shadow-2xl animate-ellipse-border">
                         <img
-                            src="src/assets/profileImg.jpg"
+                            src="profileImg.jpg"
                             alt="Your Name"
                             className="w-full h-full object-cover"
                         />
