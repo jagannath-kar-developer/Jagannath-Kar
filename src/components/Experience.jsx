@@ -12,15 +12,14 @@ const Experience = () => {
 
     return (
         <section id="experience" className="py-16 scroll-mt-12 bg-[#121212]">
+            <h2 className="text-4xl font-bold text-blue-600 text-center mb-8">Experience</h2>
 
-            <h2 className="text-4xl font-bold text-blue-600 text-center">Experience</h2>
-
-            <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-evenly items-center space-y-12 md:space-y-0 min-h-screen">
+            <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-evenly items-center space-y-12 md:space-y-0">
 
                 {/* Left Side: CRM System Development Experience */}
                 <div
                     className="w-full md:w-2/5 p-8 shadow-2xl space-y-6 flex flex-col justify-center bg-[#1E1E1F]"
-                    data-aos="fade-right"
+                    data-aos="fade-up" // Changed to 'fade-up'
                 >
                     <h2 className="text-3xl font-semibold text-[#47989f] text-center">CRM System Development</h2>
                     <p className="text-sm font-medium text-[#54b0b9]">
@@ -45,7 +44,7 @@ const Experience = () => {
                 {/* Right Side: ERP Systems Internship Experience */}
                 <div
                     className="w-full md:w-2/5 p-8 shadow-2xl space-y-6 flex flex-col justify-center bg-[#1E1E1F]"
-                    data-aos="fade-left"
+                    data-aos="fade-up" // Changed to 'fade-up'
                 >
                     <h2 className="text-3xl font-semibold text-[#47989f] text-center">ERP Systems Internship</h2>
                     <p className="text-sm font-medium text-[#54b0b9]">

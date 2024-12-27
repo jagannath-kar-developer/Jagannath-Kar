@@ -25,36 +25,46 @@ const Contact = () => {
 
                     {/* Social Media Links */}
                     <div
-                        className="flex justify-center space-x-8 p-8 rounded-lg shadow-2xl bg-gradient-to-r bg-[#1E1E1F]"
+                        className="flex flex-wrap justify-center gap-8 p-8 rounded-lg shadow-2xl bg-gradient-to-r bg-[#1E1E1F]"
                         data-aos="fade-up"
                     >
                         <a
                             href="mailto:jagannathkar44@gmail.com"
-                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md" target="_blank"
+                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fas fa-envelope text-black"></i>
                         </a>
                         <a
                             href="https://www.linkedin.com/in/jagannathkar44/"
-                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md" target="_blank"
+                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fab fa-linkedin-in text-black"></i>
                         </a>
                         <a
                             href="https://x.com/jagannathkar05"
-                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md" target="_blank"
+                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fa-brands fa-x-twitter"></i>
                         </a>
                         <a
                             href="https://www.instagram.com/jagannath_kar__"
-                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md" target="_blank"
+                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fab fa-instagram text-black"></i>
                         </a>
                         <a
                             href="tel:+919348808785"
-                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md" target="_blank"
+                            className="bg-white text-black p-5 rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#54b0b9] transition shadow-md"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fas fa-phone-alt text-black"></i>
                         </a>

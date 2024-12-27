@@ -12,14 +12,14 @@ const Certifications = () => {
 
     return (
         <section id="certifications" className="py-16 scroll-mt-24 bg-[#121212]">
-            <h2 className="text-4xl font-bold text-blue-600 text-center">Certifications</h2>
+            <h2 className="text-4xl font-bold text-blue-600 text-center mb-8">Certifications</h2>
 
-            <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-evenly items-center space-y-12 md:space-y-0 min-h-screen">
+            <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-evenly items-center space-y-12 md:space-y-0">
 
                 {/* Left Side: Certification 1 */}
                 <div
                     className="w-full md:w-2/5 p-8 shadow-2xl space-y-6 flex flex-col justify-center bg-[#1E1E1F]"
-                    data-aos="fade-right"
+                    data-aos="fade-up" // Changed to 'fade-up'
                 >
                     <h2 className="text-3xl font-semibold text-[#47989f] text-center">The Complete 2023 Web Development Bootcamp</h2>
                     <p className="text-sm font-medium text-[#54b0b9]">
@@ -44,7 +44,7 @@ const Certifications = () => {
                 {/* Right Side: Certification 2 */}
                 <div
                     className="w-full md:w-2/5 p-8 shadow-2xl space-y-6 flex flex-col justify-center bg-[#1E1E1F]"
-                    data-aos="fade-left"
+                    data-aos="fade-up" // Changed to 'fade-up'
                 >
                     <h2 className="text-3xl font-semibold text-[#47989f] text-center">Internshala Trainings Web Development</h2>
                     <p className="text-sm font-medium text-[#54b0b9]">

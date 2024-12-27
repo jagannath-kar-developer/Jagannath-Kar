@@ -17,22 +17,22 @@ const SlidingText = () => {
                 }
                 return prevIndex + direction;
             });
-        }, 1500); // Change text every 3 seconds
+        }, 1700); // Change text every 1.5 seconds
 
         return () => clearInterval(interval);
     }, [direction, texts.length]);
 
     return (
-        <div className="relative overflow-hidden h-10  text-3xl text-white font-semibold">
+        <div className="relative overflow-hidden h-10 w-full">
             <div
                 className="absolute transition-transform duration-1000 ease-in-out"
                 style={{
-                    transform: `translateY(-${currentTextIndex * 50}%)`,
+                    transform: `translateY(-${currentTextIndex * 50}%)`, // Adjust text movement
                 }}
             >
                 {texts.map((text, index) => (
-                    <div key={index} className="h-10 flex items-center">
-                        <span className="text-[#FFDB6E]">{text}</span>
+                    <div key={index} className="h-10 flex items-center justify-center">
+                        <span className="text-2xl sm:text-3xl text-[#FFDB6E]">{text}</span>
                     </div>
                 ))}
             </div>

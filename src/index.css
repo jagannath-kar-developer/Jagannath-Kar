@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   font-family: sans-serif;
   font-style: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -18,25 +24,31 @@ body {
   /* Remove default padding */
 }
 
-#home{
+#home {
   background-color: #1E1E1F;
 }
-#about{
+
+#about {
   background-color: #1E1E1F;
 }
-#experience{
+
+#experience {
   background-color: #1E1E1F;
 }
-#header{
+
+#header {
   background-color: #121212;
 }
-#skills{
+
+#skills {
   background-color: #1E1E1F;
 }
-#certifications{
+
+#certifications {
   background-color: #1E1E1F;
 }
-#contact{
+
+#contact {
   background-color: #1E1E1F;
 }
 
@@ -45,19 +57,23 @@ body {
 
 @keyframes elliptical-border {
   0% {
-      border-radius: 50% 55%;
+    border-radius: 50% 55%;
   }
+
   25% {
-      border-radius: 55% 45%;
+    border-radius: 55% 45%;
   }
+
   50% {
-      border-radius: 60% 40%;
+    border-radius: 60% 40%;
   }
+
   75% {
-      border-radius: 45% 55%;
+    border-radius: 45% 55%;
   }
+
   100% {
-      border-radius: 50% 55%;
+    border-radius: 50% 55%;
   }
 }
 

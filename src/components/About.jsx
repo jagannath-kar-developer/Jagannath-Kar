@@ -11,18 +11,15 @@ const About = () => {
     }, []);
 
     return (
-        <section id="about" className="py-16 scroll-mt-12">
+        <section id="about" className="py-16 scroll-mt-12 overflow-x-hidden">
+            <h2 className="text-4xl font-bold text-blue-600 text-center mb-8">About</h2>
 
-            <h2 className="text-4xl font-bold text-blue-600 text-center">About</h2>
-
-            <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-evenly items-center space-y-12 md:space-y-0  min-h-screen">
-
-
+            <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-evenly items-center space-y-12 md:space-y-0 min-h-screen">
 
                 {/* Left Side: About Information */}
                 <div
                     className="w-full md:w-2/5 p-8 shadow-2xl space-y-6 flex flex-col justify-center"
-                    data-aos="fade-right"
+                    data-aos="fade-up" // Fade-up animation for all screens
                 >
                     <h2 className="text-3xl font-semibold text-[#47989f] text-center">My Introduction</h2>
                     <p className="text-sm font-medium text-[#54b0b9]">
@@ -33,7 +30,7 @@ const About = () => {
                 {/* Right Side: Technologies */}
                 <div
                     className="w-full md:w-3/5 flex flex-col md:flex-row justify-between items-start py-6 space-y-6 md:space-y-0 p-8 shadow-2xl pl-10 ml-10"
-                    data-aos="fade-left"
+                    data-aos="fade-up" // Fade-up animation for all screens
                 >
                     {/* Frontend Technologies */}
                     <div className="w-full md:w-2/3">
@@ -67,6 +64,8 @@ const About = () => {
                             <span className="bg-[#2463EB] text-white py-1 px-3 rounded-md m-1">MySQL</span>
                         </div>
                     </div>
+
+                    {/* Auxiliary Technologies */}
                     <div className="w-full md:w-2/3">
                         <h3 className="text-xl font-semibold text-[#47989f]">Auxiliary Technologies</h3>
                         <div className="flex flex-wrap text-sm font-medium text-white-500">
@@ -77,7 +76,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     );

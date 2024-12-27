@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './Header.css'; // Import external CSS for custom styles
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -35,29 +36,6 @@ const Header = () => {
 
     return (
         <div className='w-full'>
-            <style jsx>{`
-                /* Scrollbar Styles */
-                ::-webkit-scrollbar {
-                    width: 12px; /* Adjust the width of the scrollbar */
-                }
-                ::-webkit-scrollbar-track {
-                    background: #121212; /* Dark color for the entire scrollbar track */
-                    border-radius: 10px; /* Optional: Rounded edges for the track */
-                }
-                ::-webkit-scrollbar-thumb {
-                    background: #47989f; /* Thumb color */
-                    border-radius: 10px; /* Rounded edges for the thumb */
-                    border: 3px solid #121212; /* Adds a gap between thumb and track */
-                }
-                ::-webkit-scrollbar-thumb:hover {
-                    background: #2463EB; /* Hover effect on the thumb */
-                }
-                /* For Firefox */
-                body {
-                    scrollbar-color: #47989f #121212; /* Thumb color followed by track color */
-                    scrollbar-width: thin; /* Makes the scrollbar thinner */
-                }
-            `}</style>
             <header
                 className={`text-white p-6 h-20 shadow-md transition-all duration-300 fixed top-0 left-0 w-full z-10 ${isScrolled ? 'bg-[#121212] shadow-xl' : 'bg-[#1E1E1F] shadow-md'}`}
             >
