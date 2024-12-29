@@ -99,7 +99,7 @@ const Home = () => {
                     <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl animate-ellipse-border">
                         <img
                             src="profileImg.jpg"
-                            alt="Your Name"
+                            alt="Jagannath Kar - Software Developer"
                             className="w-full h-full object-cover"
                         />
                     </div>
